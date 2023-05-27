@@ -1,0 +1,62 @@
+body{
+    font-family: 'Inter', sans-serif;
+    background-color: black;
+    color: white;
+    margin: 0px;
+}
+.navbar{
+    padding: 10px;
+    border-bottom: 2px solid white;
+    display: flex;
+    justify-content: space-between;
+}
+.nav-right{
+    display: flex;
+    gap: 20px;
+}
+.form{
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    width: 50%;
+    gap: 10px; 
+    margin-top: 7%;
+}
+.form > h1{
+    font-size: 40px;
+    margin-bottom: 10px;
+    font-weight: 400;
+}
+.form > input{
+    background-color: transparent;
+    border: none;
+    border-bottom: 1px solid white;
+    color: white;
+    padding: 10px;
+}
+::placeholder{
+    color: #FFFFFF;
+}
+.form >p{
+    margin: 0px;
+    display: none;
+}
+.btns{
+    padding: 10px;
+    width: 120px;
+    border-radius: 0px;
+}
+.profile > div > h1{
+    font-weight: 100;
+    margin-bottom: 30px;
+}
+.profile{
+    display: flex;
+    flex-direction: column;
+    margin: 40px;
+}
+.profile > div{
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}

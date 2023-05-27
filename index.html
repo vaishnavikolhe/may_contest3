@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contest 3</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <div class="navbar">
+            <div class="nav-left">Header</div>
+            <div class="nav-right">
+                <div class="signup-btn">Signup</div>
+                <div class="profile-btn">Profile</div>
+            </div>
+        </div>
+    </header>
+    <section>
+        <div class="form">
+            <h1 style="font-weight: 300; font-size: 30px;">Signup</h1>
+            <input type="text" name="name" id="name" placeholder="Full Name">
+            <input type="text" name="email" id="email" placeholder="Email">
+            <input type="password" name="pw" id="pw" placeholder="Password">
+            <input type="password" name="c-pw" id="c-pw" placeholder="Confirm Password">
+            <p style="color: red;" id="error-message">Error : All the fields are mandatory</p>
+            <p style="color: red;" id="error-message2">Error : Password does  not matched</p>
+            <p style="color: green;" id="success-message">Successfully Signed Up!</p>
+            <button id="signup-form" class="btns signup-btn">Signup</button>
+        </div>
+    </section>
+    <script src="script.js"></script>
+</body>
+</html>
